@@ -17,12 +17,38 @@
         <main>
         <div id="form">
         <form id="survey-form">
-            <label for="name"><a class="form_text"></a>Name</a><br><input type="text" name="name" id="name" class="input_elements" placeholder="Enter your name" required></label>
-            <label for="email"><a class="form_text"></a>Email</a><br><input type="email" name="email" id="email" class="input_elements" placeholder="Enter your Email" required></label>
-            <label for="Age"><a class="form_text"></a>Age</a><br><input type="number" name="email" id="age" class="input_elements" placeholder="Enter your Age" min="10" max="99" required></label>
+            <label id="name-label" for="name"><a class="form_text"></a>Name</a><br><input type="text" name="name" id="name" class="input_elements" placeholder="Enter your name" required></label>
+            <label id="email-label" for="email"><a class="form_text"></a>Email</a><br><input type="email" name="email" id="email" class="input_elements" placeholder="Enter your Email" required></label>
+            <label id="number-label" for="Age"><a class="form_text"></a>Age</a><br><input type="number" name="email" id="number" class="input_elements" placeholder="Age" min ="10" max= "99" required></label>
+            <label class="form_text">do you like my project</label><select  id="dropdown" class="input_elements" >
+                <option disabled selected>select one</option>
+                <option>yes</option>
+                <option>absolutely</option>
+                <option>ofcorse</option>
+            </select>
+            <a class="form_text">persnolity</a><br>
+            <label id="ratio-label-1" for="ratio-1"><input type="radio" name="radio" id="radio-1" class="ratio-buttons" value="stupid" ><a class="radio_text">stupid</a></label><br>
+            <label id="ratio-label-1" for="ratio-2"><input type="radio" name="radio" id="radio-2" class="ratio-buttons" value="brai
+                " ><a class="radio_text">brainless</a></label><br><br>
 
+            
+                <a class="form_text">how's my project</a><br>
+                <label for="checkbox1"><input value="wonderfull" type="checkbox" name="checkbox" id="checkbox1" class="ratio-buttons" ><a class="radio_text">wonderfull</a></label><br>
+                <label for="checkbox2"><input value="marvelous" type="checkbox" name="checkbox" id="checkbox2" class="ratio-buttons" ><a class="radio_text">marvelous</a></label><br>
+                <label for="checkbox3"><input value="fantastic" type="checkbox" name="checkbox" id="checkbox3" class="ratio-buttons" ><a class="radio_text">fantastic</a></label><br>
+                <label for="checkbox4"><input value="awesome" type="checkbox" name="checkbox" id="checkbox4" class="ratio-buttons" ><a class="radio_text">awesome</a></label><br><br>
+            
+                <a class="form_text">extra comments</a><br>
+                <textarea rows="10" cols="20" id="comments" class="text_area" name="comment" placeholder="Enter your comment here..." spellcheck="false" ></textarea><br><br>
+                <input type="submit" name="submit" id="submit">
+
+            
     </div>
         </form>
+        <footer>
+            <p style="text-align: center;">made by dd</p>
+
+        </footer>
     </main>
     </body>
 </html>
